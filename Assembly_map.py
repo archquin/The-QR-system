@@ -115,9 +115,9 @@ import dpath.util
 import cv2
 
 
-OPQR = list()
-OPQR_init=list()
-OPQR_other = list()
+OPQR = []
+OPQR_init=[]
+OPQR_other = []
 location = []
 
 
