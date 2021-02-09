@@ -464,7 +464,7 @@ G = vd.KeysGraph(Sub)
 G.draw('./test.png')
 Image('./test.png')
 
-def Snest(L,l2,l1):
+def Sunest(L,l2,l1):
     Assembly ={}        
     l=L+1
     for i in range(1,l):
@@ -522,7 +522,7 @@ def Snest(L,l2,l1):
             Assembly.update(SubN)
     return(Assembly)
 
-Partree = Snest(8,Subs,0)
+Partree = Sunest(8,Subs,0)
 
 G = vd.KeysGraph({'Sub8':Partree['Sub8']})
 
